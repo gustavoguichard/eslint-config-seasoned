@@ -9,8 +9,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'airbnb-base',
     'universe',
+    'airbnb-base',
     'prettier',
     'prettier/react',
   ],
@@ -43,6 +43,7 @@ module.exports = {
     ],
 
     'react/display-name': 0,
+    'react/jsx-closing-bracket-location': ['warn'],
     'react/prop-types': ['warn', { skipUndeclared: true }],
     semi: ['error', 'never'],
     'sort-keys': ['warn', 'asc', { caseSensitive: true, natural: true }],
