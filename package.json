@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-seasoned",
+  "version": "0.0.1",
+  "description": "Eslint configuration for our company",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.js",
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeasonedSoftware/eslint-config-seasoned.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Seasoned Software",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeasonedSoftware/eslint-config-seasoned/issues"
+  },
+  "homepage": "https://github.com/SeasonedSoftware/eslint-config-seasoned#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0",
+    "prettier": "^1.15.1"
+  }
+}
