@@ -10,6 +10,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'airbnb-base',
+    'universe',
     'prettier',
     'prettier/react',
   ],
@@ -25,9 +26,9 @@ module.exports = {
   plugins: ['prettier', 'react', 'react-native'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
-    // 'class-methods-use-this': 0,
-    // 'global-require': 0,
-    // 'import/no-unresolved': 0,
+    'class-methods-use-this': 0,
+    'global-require': 0,
+    'import/no-unresolved': 0,
     'prettier/prettier': [
       'error',
       {

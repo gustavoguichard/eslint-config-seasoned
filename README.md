@@ -1,6 +1,14 @@
 ## Installation
 
-`yarn add eslint-config-seasoned -D`
+```
+yarn add -D eslint-config-seasoned
+```
+
+You'll also need to install these dependencies:
+
+```
+yarn add -D eslint-config-airbnb-base eslint-config-universe
+```
 
 ## Setup
 
